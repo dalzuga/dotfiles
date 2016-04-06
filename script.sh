@@ -1,7 +1,7 @@
 #!/bin/bash
-#ssh-keygen -t rsa -b 4096 -C "dalzuga@gmail.com"
-#cat ~/.ssh/id_rsa.pub
-#open https://github.com/settings/ssh
+ssh-keygen -t rsa -b 4096 -C "dalzuga@gmail.com"
+cat ~/.ssh/id_rsa.pub
+open https://github.com/settings/ssh
 
 echo 'PS1="\[\e[0;36m\]\h\[\e[m\]:\W \[\e[34m\]\u\[\e[m\]\[\e[31m\]\$\[\e[m\] "' >> ~/.bash_profile
 
