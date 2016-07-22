@@ -3,7 +3,9 @@ ssh-keygen -t rsa -b 4096 -C "dalzuga@gmail.com"
 cat ~/.ssh/id_rsa.pub
 open https://github.com/settings/ssh
 
-echo 'PS1="\[\e[0;36m\]\h\[\e[m\]:\W \[\e[34m\]\u\[\e[m\]\[\e[31m\]\$\[\e[m\] "' >> ~/.bash_profile
+echo 'PS1="\[\e[0;33m\]\h\[\e[m\]:\W \[\e[32m\]\u\[\e[m\]\[\e[31m\]\$\[\e[m\] "' >> ~/.bash_profile
+echo 'alias betty="/Users/Alex/Holberton/Repositories/Betty/checkpatch.pl --no-tree --terse f"'
+echo 'alias check-doc="/Users/Alex/Holberton/Repositories/Betty/kernel-doc.pl -list"'
 
 git config --global user.name "Daniel Alzugaray"
 git config --global user.email "dalzuga@gmail.com"
