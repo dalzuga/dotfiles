@@ -3,7 +3,7 @@ ssh-keygen -t rsa -b 4096 -C "dalzuga@gmail.com"
 cat ~/.ssh/id_rsa.pub
 open https://github.com/settings/ssh
 
-echo 'PS1="\[\e[0;33m\]\h\[\e[m\]:\W \[\e[32m\]\u\[\e[m\]\[\e[31m\]\$\[\e[m\] "' >> ~/.bash_profile
+echo 'PS1="\[\e[0;35m\]\h\[\e[m\]:\W \[\e[32m\]\u\[\e[m\]\[\e[36m\]\$\[\e[m\] "' >> ~/.bash_profile
 echo 'alias betty="/Users/Alex/Holberton/Repositories/Betty/checkpatch.pl --no-tree --terse f"'
 echo 'alias check-doc="/Users/Alex/Holberton/Repositories/Betty/kernel-doc.pl -list"'
 
