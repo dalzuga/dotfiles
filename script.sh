@@ -4,8 +4,8 @@ cat ~/.ssh/id_rsa.pub
 open https://github.com/settings/ssh
 
 echo 'PS1="\[\e[0;35m\]\h\[\e[m\]:\W \[\e[32m\]\u\[\e[m\]\[\e[36m\]\$\[\e[m\] "' >> ~/.bash_profile
-echo 'alias betty="/Users/Alex/Holberton/Repositories/Betty/checkpatch.pl --no-tree --terse f"'
-echo 'alias check-doc="/Users/Alex/Holberton/Repositories/Betty/kernel-doc.pl -list"'
+echo 'alias betty="/Users/Alex/Holberton/Repositories/Betty/checkpatch.pl --no-tree --terse f"' >> ~/.bash_profile
+echo 'alias check-doc="/Users/Alex/Holberton/Repositories/Betty/kernel-doc.pl -list"' >> ~/.bash_profile
 
 git config --global user.name "Daniel Alzugaray"
 git config --global user.email "dalzuga@gmail.com"
