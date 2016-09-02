@@ -1,3 +1,7 @@
+;; place this file in your ~/emacs.d/ directory
+;; you must remove your ~/.emacs file first if you want emacs
+;; to load ~/.emacs.d/init.el (this file)
+
 ;; i-do mode
 
 (setq ido-enable-flex-matching t)
