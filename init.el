@@ -12,11 +12,23 @@
 
 (defalias 'list-buffers 'ibuffer)
 
-;; custom ones for betty
+;; saves with ~squiggly lines go somewhere else
+;; (~/.saves/ directory)
 
 (setq backup-directory-alist `(("." . "~/.saves")))
+
+;; change compile command to "make"
+;; (instead of "make -k")
+
 (setq compile-command "make ")
+
+;; map M-p key to recompile command
+;; (saves time on compilation of C programs)
 (global-set-key "\M-p" 'recompile)
+
+;; custom ones for betty
+;; (https://github.com/holbertonschool/Betty)
+
 (setq-default indent-tabs-mode t)
 (c-set-offset 'substatement 8)
 (c-set-offset 'substatement-open 0)
