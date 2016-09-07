@@ -38,8 +38,8 @@
 
 ;; promotes background usage
 
-(add-hook 'kill-emacs-hook
-          (lambda () (or (y-or-n-p "Are you sure you don't mean suspend? ")
-                         (error "Quit canceled"))))
-(add-hook 'suspend-resume-hook (lambda () (message "Resumed!")
-                                 (sit-for 2)))
+;; (add-hook 'kill-emacs-hook
+;;           (lambda () (or (y-or-n-p "Are you sure you don't mean suspend? ")
+;;                          (error "Quit canceled"))))
+;; (add-hook 'suspend-resume-hook (lambda () (message "Resumed!")
+;;                                  (sit-for 2)))
